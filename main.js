@@ -1,30 +1,3 @@
-
-// console.log(val[0].value)
-// val.forEach(val=>{
-//     console.log(val.value)
-// })
-// const result = document.querySelector(".result");
-// const reset = document.getElementById("C");
-// console.log(reset.value)
-
-// function updateValue(){
-//     result.innerText = 0;
-// }
-
-// reset.addEventListener("click",updateValue)
-
-// let keys = document.querySelector(".keys")
-
-// keys.addEventListener("click", showOutput)
-
-// function showOutput(e){
-//     e.preventDefault()
-//     let num = e.target.value
-//     console.log(num)
-//     return 0;
-// }
-
-
 const buttons = Array.from(document.querySelectorAll("button"));
 const display = document.querySelector(".result");
 
