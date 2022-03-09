@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+.main {
+	width: 500px;
+	background: #17202a;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 25px;
+	border: 10px solid #000;
+}
+
+.output {
+	background-color: #17202a;
+	margin-bottom: 20px;
+	height: 100px;
+}
+.output p {
+	color: #fff;
+	font-size: 4rem;
+	/* text-align: bottom; */
+	padding-right: 20px;
+	/* flex-direction: column; */
+	text-align: end;
+	margin-top: 50px;
+}
+.numbers {
+	border-top: 10px solid rgb(0, 0, 0);
+	width: 100%;
+}
+.numbers .group {
+	width: 100%;
+	display: flex;
+}
+
+.numbers .group button {
+	flex: auto;
+	width: 70px;
+	height: 115px;
+	border: none;
+	font-size: 2rem;
+}
+
+.sign {
+	background-color: #3498db;
+}
+.sign2 {
+	background-color: #f5b041;
+}
+button {
+	transition: 0.2s;
+	border-radius: 50%;
+	margin: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(32, 32, 32);
+	transition: 0.2s;
+	color: #fff;
+}
